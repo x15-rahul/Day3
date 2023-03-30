@@ -1,0 +1,18 @@
+const myAddress = '     Kalkolia Para, Shibrampur Road, Magura    ';
+// console.log(myAddress[0]);
+// console.log(myAddress.toLowerCase().lastIndexOf('shib'));
+// console.log(myAddress.includes('Kal'));
+// console.log(myAddress.toLowerCase().endsWith('ura'));
+// const division = 'Khulna, Bangladesh';
+// const newString = myAddress.concat(', ', division);
+// console.log(newString);
+// console.log(myAddress);
+// const slicedString = myAddress.slice(0, 8);
+// console.log(slicedString);
+// const subString = myAddress.substring(0, 8);
+// console.log(subString);
+// const splited = myAddress.split('');
+// console.log(splited);
+const replaced = myAddress.replace('Shibrampur', 'Batikadanga');
+console.log(replaced.trimEnd());
+console.log(myAddress.trim());
